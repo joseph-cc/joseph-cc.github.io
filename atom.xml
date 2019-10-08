@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-08T09:08:34.983Z</updated>
+  <updated>2019-10-08T10:25:40.628Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git的使用</title>
+    <link href="http://yoursite.com/2019/10/08/git%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2019/10/08/git的使用/</id>
+    <published>2019-10-08T10:08:47.000Z</published>
+    <updated>2019-10-08T10:25:40.628Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="新建文件夹，查看当前路径"><a href="#新建文件夹，查看当前路径" class="headerlink" title="新建文件夹，查看当前路径"></a>新建文件夹，查看当前路径</h4><figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir learngit</span><br><span class="line">$ cd learngit</span><br><span class="line">$ pwd</span><br><span class="line">-----------------------</span><br><span class="line">/Users/michael/learngit</span><br></pre></td></tr></table></figure><h4 id="初始化-init"><a href="#初始化-init" class="headerlink" title="初始化-init"></a>初始化-init</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br><span class="line">-----------------------</span><br><span class="line">Initialized empty Git repository in /Users/michael/learngit/.git/</span><br></pre></td></tr></table></figure><a id="more"></a><ul><li><p>目录默认是隐藏的，用ls -ah命令就可以看见</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ls -ah</span><br></pre></td></tr></table></figure></li><li><p>创建文件(按esc后键入:wq退出)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vi readme.txt</span><br></pre></td></tr></table></figure></li></ul><h4 id="添加文件-add"><a href="#添加文件-add" class="headerlink" title="添加文件-add"></a>添加文件-add</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add readme.txt</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add -A</span><br></pre></td></tr></table></figure><h4 id="提交文件-commit"><a href="#提交文件-commit" class="headerlink" title="提交文件-commit"></a>提交文件-commit</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -m &quot;wrote a readme file&quot;</span><br><span class="line">------------------------</span><br><span class="line">[master (root-commit) eaadf4e] wrote a readme file</span><br><span class="line"> 1 file changed, 2 insertions(+)</span><br><span class="line"> create mode 100644 readme.txt</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;新建文件夹，查看当前路径&quot;&gt;&lt;a href=&quot;#新建文件夹，查看当前路径&quot; class=&quot;headerlink&quot; title=&quot;新建文件夹，查看当前路径&quot;&gt;&lt;/a&gt;新建文件夹，查看当前路径&lt;/h4&gt;&lt;figure class=&quot;highlight asciidoc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ mkdir learngit&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ cd learngit&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ pwd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-----------------------&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/Users/michael/learngit&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&quot;初始化-init&quot;&gt;&lt;a href=&quot;#初始化-init&quot; class=&quot;headerlink&quot; title=&quot;初始化-init&quot;&gt;&lt;/a&gt;初始化-init&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git init&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-----------------------&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Initialized empty Git repository in /Users/michael/learngit/.git/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>初识Scrapy</title>
